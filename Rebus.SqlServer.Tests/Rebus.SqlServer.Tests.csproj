@@ -42,6 +42,7 @@
     <PackageReference Include="nunit3testadapter" Version="3.10.0" />
     <PackageReference Include="rebus" Version="5.0.0" />
     <PackageReference Include="rebus.tests.contracts" Version="5.0.0" />
+    <PackageReference Include="Rebus.TransactionScopes" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'net46'">
     <Reference Include="System.Transactions" />
